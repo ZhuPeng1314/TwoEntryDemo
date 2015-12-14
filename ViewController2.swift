@@ -14,8 +14,6 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.redColor()
         
-        let button = UIButton()
-        button.addTarget(<#T##target: AnyObject?##AnyObject?#>, action: <#T##Selector#>, forControlEvents: <#T##UIControlEvents#>)
     }
 
     override func didReceiveMemoryWarning() {

@@ -28,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }else
         {
             userDefault.setBool(true, forKey: "hadLoaded")
+            userDefault.synchronize()
             let mainSB = UIStoryboard.init(name: "Main", bundle: nil)
             let root = mainSB.instantiateViewControllerWithIdentifier("VC1")
             self.window?.rootViewController = root
